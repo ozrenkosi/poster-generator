@@ -3,7 +3,7 @@ class Line {
     this.lineColor = color(random(0, 255), random(0, 255), random(0, 255), random(150, 180));
     this.lineWeight = lineWeight;
     this.linePointiness = 0.005;
-    this.linePositionOffsetMAX = 300;
+    this.linePositionOffsetMAX = 0.35*height;
     this.lineResolution = 2;
 
     this.xPos = random(width/4, 3*width/4);
