@@ -1,7 +1,3 @@
-// TO-DO
-// - Improve line drawing algorithm, make it more like waves 
-//   -- similar to Joy Division album art
-
 let lines = [];
 let shapes = [];
 let lineGenerateButton, shapeGenerateButton;
