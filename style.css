@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+
+/* Colors */
+:root {
+  --super-light-purple: #f4f1f4;
+  --dark-blue: #3d405b;
+  --red: #e56b6f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bitter', serif;
+  color: var(--dark-blue);
+}
+
+body {
+  overflow: hidden;
+  background-color: var(--super-light-purple);
+}
+
+#rightDivColumn {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 10px 10px 50px;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 80px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-right: 8px;
+  background-color: white;
+  border: 1px solid var(--dark-blue);
+  border-radius: 5px;
+  box-shadow: 0 2px 1px rgba(61, 64, 91, 0.3);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--red);
+  color: white;
+  border-color: var(--red);
+}
+
+#firstSectionDiv1, #firstSectionDiv2 {
+  display: inline-block;
+  width: 230px;
+  vertical-align: top;
+}
+
+p {
+  opacity: 0.6;
+  font-size: 14px;
+  margin-top: 25px;
+  margin-bottom: 8px;
+}
+
+input[type=range] {
+  -webkit-appearance: none !important;
+  display: block;
+  height: 4px;
+  background-color: rgba(229, 107, 111, 0.4);
+  border-radius: 100px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  width: 14px;
+  height: 14px;
+  background-color: var(--red);
+  border-radius: 100px;
+}
