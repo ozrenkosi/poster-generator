@@ -3,7 +3,7 @@ class Line {
     this.lineColor = color(random(0, 255), random(0, 255), random(0, 255), random(150, 180));
     this.lineWeight = lineWeight;
     this.lineOffsetMAX = 0.6*height;
-    this.lineResolution = width/width;
+    this.lineResolution = 3;
 
     this.numberOfSubLines = 15;
 
