@@ -61,7 +61,7 @@ function setup() {
 
 function createLines(numberOfLines) {
   for (let i = 0; i < numberOfLines; i++) {
-    lines[i] = new Line(5);
+    lines[i] = new Line(2);
   }
 }
 
@@ -96,7 +96,7 @@ function createSideHtmlElements() {
   createDiv().id('firstSectionDiv1').parent('rightDivColumn');
   createElement('h3', 'Lines').parent('firstSectionDiv1');
   lineGenerateButton = createButton('Generate').parent('firstSectionDiv1');
-  sliderNumberOfLines = createSlider(1, 12, 3, 1);
+  sliderNumberOfLines = createSlider(1, 5, 1, 1);
   paragraphNumberOfLines = createP('Number of lines: ' + sliderNumberOfLines.value()).parent('firstSectionDiv1');
   sliderNumberOfLines.parent('firstSectionDiv1');
 
